@@ -1,0 +1,477 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  background-color: lightslategrey;
+  border: 1px;
+  height: 600px;
+  color: white;
+}
+nav ul {
+  float: left;
+  border: 1px;
+}
+.big {
+  position: absolute;
+  margin: 130px 0 0 500px;
+  color: rgb(27, 4, 4);
+}
+.logo {
+  width: 70%;
+  text-align: center;
+}
+.photo {
+  height: 20px;
+  width: 30px;
+}
+.donate {
+  background-color: white;
+  border: 2px;
+  padding: 8px;
+  color: lightslategrey;
+}
+.fa-play-circle {
+  background-color: lightslategrey;
+}
+.trainer {
+  height: 450px;
+  border: 2px;
+  text-align: center;
+  padding: 80px 100px 0 100px;
+}
+h1 {
+  font-size: 60px;
+}
+.arts {
+  font-size: 30px;
+}
+.train {
+  height: 300px;
+  border: 2px;
+  text-align: center;
+  padding: 0px 350px 0 350px;
+}
+.group {
+  height: 550px;
+  border: 2px;
+  text-align: center;
+  padding: 0px 150px 0 150px;
+  background-color: gray;
+}
+.table {
+  height: 240px;
+  padding: 40px 50px 0 50px;
+  border: 2px;
+}
+.table1 {
+  width: 45%;
+  float: left;
+  height: 230px;
+  background-color: rgb(40, 43, 61);
+  border: 2px;
+}
+.table2 {
+  width: 45%;
+  float: right;
+  height: 230px;
+  background-color: rgb(40, 43, 61);
+  border: 2px;
+}
+.content {
+  height: 300px;
+  border: 2px;
+}
+.paragraphe1 {
+  width: 48%;
+  float: left;
+  height: 240px;
+  border: 2px;
+}
+.paragraphe2 {
+  width: 48%;
+  float: right;
+  height: 240px;
+  border: 2px;
+}
+button {
+  padding: 20px;
+  width: 180px;
+  background-color: white;
+}
+footer {
+  height: 360px;
+  border: 2px;
+  padding: 10px;
+  background-color: rgb(22, 31, 50);
+  padding: 5px 30px 0 30px;
+  color: white;
+}
+main {
+  height: 250px;
+  border: 1px;
+}
+.site {
+  width: 70%;
+  float: left;
+  height: 230px;
+  border: 2px;
+}
+.job {
+  float: left;
+  padding: 0px 20px 0 0px;
+  margin-top: -15px;
+  color: white;
+}
+div {
+  border: 2px;
+  height: 50px;
+}
+
+.tax {
+  height: 50px;
+  border: 2px;
+}
+.level {
+  float: left;
+  width: 95%;
+  height: 30px;
+  border: 1px;
+}
+i {
+  font-size: 40px;
+}
+h3 {
+  color: rgb(75, 66, 66);
+}
+h5 {
+  margin-top: -15px;
+  color: gray;
+}
+.volunteer {
+  margin-top: -40px;
+}
+@media all and (max-width: 245px) {
+  header {
+    height: 700px;
+  }
+  #hire,
+  .donate {
+    display: none;
+  }
+  .logo {
+    width: 50%;
+  }
+  .trainer {
+    padding: 80px 10px 0 10px;
+  }
+  h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .arts {
+    font-size: 15px;
+  }
+  .train {
+    height: 800px;
+    text-align: start;
+    padding: 0px 10px 0 10px;
+  }
+  .big {
+    position: initial;
+    margin: 30px 0 0 0px;
+  }
+  .group {
+    height: 1600px;
+    text-align: initial;
+    padding: 0px 10px 0 10px;
+  }
+  .table {
+    display: none;
+  }
+  .content {
+    height: 300px;
+  }
+  .paragraphe1 {
+    width: 100%;
+    height: 740px;
+  }
+  .paragraphe2 {
+    width: 100%;
+    height: 740px;
+  }
+  button {
+    padding: 10px;
+    width: 130px;
+  }
+  footer {
+    height: 950px;
+  }
+  main {
+    height: 650px;
+  }
+  .site {
+    width: 100%;
+    height: 330px;
+  }
+  .job {
+    width: 100%;
+    float: none;
+    padding: 0px 0px 0 0px;
+    margin-top: -0px;
+  }
+  .level {
+    float: left;
+    width: 95%;
+    height: 210px;
+    border: 1px;
+  }
+}
+@media screen and (min-width: 245px) and (max-width: 375px) {
+  header {
+    height: 400px;
+  }
+  #hire,
+  .donate {
+    display: none;
+  }
+  .logo {
+    width: 50%;
+  }
+  .trainer {
+    padding: 80px 10px 0 10px;
+  }
+  h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .arts {
+    font-size: 15px;
+  }
+  .train {
+    height: 400px;
+    text-align: start;
+    padding: 0px 10px 0 10px;
+  }
+  .big {
+    position: initial;
+    margin: 30px 0 0 0px;
+  }
+  .group {
+    height: 1000px;
+    text-align: initial;
+    padding: 0px 10px 0 10px;
+  }
+  .table {
+    height: 240px;
+    padding: 40px 50px 0 50px;
+    border: 2px;
+  }
+  .table1 {
+    height: 130px;
+  }
+  .table2 {
+    height: 130px;
+  }
+  .content {
+    height: 300px;
+  }
+  .paragraphe1 {
+    width: 100%;
+    height: 340px;
+  }
+  .paragraphe2 {
+    width: 100%;
+    height: 340px;
+  }
+  button {
+    padding: 10px;
+    width: 130px;
+  }
+  footer {
+    height: 650px;
+  }
+  main {
+    height: 450px;
+  }
+  .site {
+    width: 100%;
+    height: 230px;
+  }
+  .level {
+    float: left;
+    width: 95%;
+    height: 90px;
+    border: 1px;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 500px) {
+  header {
+    height: 350px;
+  }
+  .logo {
+    width: 18%;
+  }
+
+  .trainer {
+    padding: 80px 10px 0 10px;
+  }
+  h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .arts {
+    font-size: 15px;
+  }
+  .train {
+    height: 270px;
+    text-align: start;
+    padding: 0px 10px 0 10px;
+  }
+  .big {
+    position: initial;
+    margin: 30px 0 0 0px;
+  }
+  .group {
+    height: 800px;
+    text-align: center;
+    padding: 0px 10px 0 10px;
+  }
+  .table {
+    height: 240px;
+    padding: 40px 50px 0 50px;
+    border: 2px;
+  }
+  .table1 {
+    height: 130px;
+  }
+  .table2 {
+    height: 130px;
+  }
+  .content {
+    height: 300px;
+  }
+  .paragraphe1 {
+    width: 100%;
+    height: 270px;
+  }
+  .paragraphe2 {
+    width: 100%;
+    height: 270px;
+  }
+  button {
+    padding: 10px;
+    width: 130px;
+  }
+  footer {
+    height: 450px;
+  }
+  main {
+    height: 300px;
+  }
+  .site {
+    width: 70%;
+    height: 180px;
+  }
+  .level {
+    float: left;
+    width: 90%;
+    height: 90px;
+    border: 1px;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
+  header {
+    height: 350px;
+  }
+  .logo {
+    width: 40%;
+  }
+
+  .trainer {
+    padding: 80px 10px 0 10px;
+  }
+  h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .arts {
+    font-size: 15px;
+  }
+  .train {
+    height: 270px;
+    text-align: start;
+    padding: 0px 10px 0 10px;
+  }
+  .big {
+    position: initial;
+    margin: 30px 0 0 0px;
+  }
+  .group {
+    height: 600px;
+    text-align: center;
+    padding: 0px 10px 0 10px;
+  }
+  .table {
+    height: 240px;
+    padding: 40px 50px 0 50px;
+    border: 2px;
+  }
+  .table1 {
+    height: 130px;
+  }
+  .table2 {
+    height: 130px;
+  }
+  .content {
+    height: 300px;
+  }
+  button {
+    padding: 10px;
+    width: 130px;
+  }
+  footer {
+    height: 500px;
+  }
+  main {
+    height: 300px;
+  }
+  .site {
+    width: 70%;
+    height: 180px;
+  }
+  .level {
+    float: left;
+    width: 90%;
+    height: 90px;
+    border: 1px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 900px) {
+  header {
+    height: 750px;
+  }
+  .logo {
+    width: 60%;
+  }
+  .big {
+    position: initial;
+    margin: 30px 0 0 0px;
+  }
+  .train {
+    padding: 0px 150px 0 150px;
+  }
+  .group {
+    height: 600px;
+    padding: 0px 10px 0 22px;
+  }
+}
+@media screen and (min-width: 901px) and (max-width: 1300px) {
+  .big {
+    position: initial;
+    margin: 30px 0 0 0px;
+  }
+  .train {
+    padding: 0px 150px 0 150px;
+  }
+}

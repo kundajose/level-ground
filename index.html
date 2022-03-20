@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level Ground</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="/fontawesome/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul id="hire">
+                CLASSES
+            </ul>
+            <ul>
+                HIRE US
+            </ul>
+            <ul class="logo">
+                <img class="photo"
+                    src="data:image/png;base64,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"
+                    alt="logo">
+            </ul>
+            <ul class="donate">
+                DONATE
+            </ul>
+        </nav>
+        <section class="trainer">
+            <h1>
+                WHERE GRIT MEETS OPPROTUNITY
+            </h1>
+            <P class="arts">
+                At Level ground (LG) Urban youth cultivate grit and resilience Trougth
+                Martial Arts. They learn to apply thise values of the Mat of the persuit of the ambition trought our
+                students trainer certification and callege access programs
+            </P>
+            <span><i class="fas fa-play-circle"></i>Watch the video</span>
+            <h3 class="big">
+                Big background image
+            </h3>
+        </section>
+    </header>
+    <section class="train">
+        <h1>WHY</h1>
+        <p>
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam
+            vulputate risus nec
+            aliquam molestie. Aliquam eleifend nisi placerat est iaculis, eu aliquet sapien pellentesque. Nam
+            pellentesque rutrum
+            lacus, quis luctus arcu viverra id. Nullam mollis facilisis arcu, ut pellentesque mi maximus non. Nullam sit
+
+        </p>
+    </section>
+    <section class="group">
+        <section class="table">
+            <section class="table1">
+            </section>
+            <section class="table2">
+            </section>
+        </section>
+        <section class="content">
+            <section class="paragraphe1">
+                <h2>VISIT THE GYM</h2>
+                <P>onvallis, ante vitae finibus consequat, felis mauris tristique nisi, vitae euismod tellus eros
+                    sit
+                    amet justo. Curabitur
+                    ac tristique odio. Donec interdum, sem vitae sollicitudin condimentum, ligula erat commodo
+                    dolor,
+                    sit amet dignissim
+                    orci mi et justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat
+                </P>
+                <button>SEE CLASSES</button>
+            </section>
+            <section class="paragraphe2">
+                <h2>VISIT THE GYM</h2>
+                <P>onvallis, ante vitae finibus consequat, felis mauris tristique nisi, vitae euismod tellus eros
+                    sit
+                    amet justo. Curabitur
+                    ac tristique odio. Donec interdum, sem vitae sollicitudin condimentum, ligula erat commodo
+                    dolor,
+                    sit amet dignissim
+                    orci mi et justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat
+                </P>
+                <button>HIRE US</button>
+            </section>
+        </section>
+    </section>
+    <section class="train">
+        <h2>VOLUNTEER WITH LEVEL GROUND</h2>
+        <P>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam
+            vulputate risus nec
+            aliquam molestie. Aliquam eleifend nisi placerat est iaculis, eu aliquet sapien pellentesque. Nam
+            pellentesque rutrum
+            lacus, quis luctus arcu viverra id. Nullam mollis facilisis arcu, ut pellentesque mi maximus non. Nullam sit
+        </P>
+        <button>HIRE US</button>
+    </section>
+    <footer>
+        <main>
+            <section class="site">
+                <article>
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="far fa-envelope"></i>
+                </article>
+
+                <h3>SITE MAP</h3>
+                <div>
+                    <article class=" job">
+                        Classes
+                    </article>
+                    <article class=" job">
+                        Hire Us
+                    </article>
+                </div>
+
+                <div class="volunteer">
+                    <article>
+                        <h3>CONTRIBUTE</h3>
+                    </article>
+                    <article class=" job">
+                        Give
+                    </article>
+                    <article class=" job">
+                        Volunteer
+                    </article>
+                </div>
+            </section>
+            <section class="floor">
+                <h4>LEVEL GROUND</h4>
+                <h4>MIXED MATERIALS ARTS</h4>
+                <h5>50 Milk Street, Floor 17</h5>
+                <h5>Boston, MA, 02109</h5>
+                <h5>410-533-2210</h5>
+                <h4>Ali@LevelGroundMMA.org</h4>
+            </section>
+        </main>
+        <hr>
+        <section class="tax">
+            <article class="level">
+                Level Ground Mixed Material Arts is a tax-exempt, 501(c)3 organization under the IRS. EIN 46-3915852.
+            </article>
+            <article>
+                <img class="photo"
+                    src="data:image/png;base64,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"
+                    alt="logo">
+            </article>
+        </section>
+    </footer>
+</body>
+
+</html>
